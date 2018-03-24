@@ -44,5 +44,21 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+
+        Button ownerSignUp = (Button) findViewById(R.id.ownerSignUp);
+
+        // Set a click listener on that View
+        ownerSignUp.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the Sign in category is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link FamilyActivity}
+                Intent ownerSignUpIntent = new Intent(MainActivity.this, OwnerSignUpActivity.class);
+
+                // Start the new activity
+                startActivity(ownerSignUpIntent);
+            }
+
+        });
     }
 }
