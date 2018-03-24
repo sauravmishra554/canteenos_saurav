@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">Canteenos</string>
+    <string-array name="Hall">
+        <item>Hall</item>
+        <item>Hall 1</item>
+        <item>Hall 2</item>
+        <item>Hall 3</item>
+        <item>Hall 4</item>
+        <item>Hall 5</item>
+    </string-array>
+    <string-array name="Room">
+        <item>Room</item>
+        <item>001</item>
+        <item>002</item>
+        <item>003</item>
+        <item>004</item>
+        <item>005</item>
+        <item>006</item>
+    </string-array>
+    <string-array name="WhichHall">
+        <item>Open account in hall-</item>
+        <item>Hall 1</item>
+        <item>Hall 2</item>
+        <item>Hall 3</item>
+        <item>Hall 4</item>
+        <item>Hall 5</item>
+    </string-array>
 </resources>
